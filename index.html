@@ -1,12 +1,304 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="This is first projext">
+  <style></style>
+  <script></script>
+  <link rel="stylesheet" href="">
   <title>Document</title>
 </head>
+
 <body>
+  <!-- < ! - -  - - > -->
+  <!-- <h1>fdfd
+    fdfdfd
+    fdfdfdfd
+    fd</h1> -->
+
+  <!-- heading  -->
+  <h1>heading 1</h1>
+  <h2>heading 2</h2>
+  <h3>heading 3</h3>
+  <h4>heading 4</h4>
+  <h5>heading 5</h5>
+  <h6>heading 6</h6>
+
+  <!-- syntax  / paragraph -->
+  <p>Lorem ipsum dolor sit amet, consectetur
+
+    adipisicing elit. Fuga accusamus numquam quam
+
+    illum! Nemo magni unde ex illo, adipisci atque!</p>
+
+  <!-- attribute (global / local) -->
+  <!-- glabal  -->
+  <h1 class="ahmed">ahmed</h1>
+  <h1 hidden>mahmoud</h1>
+  <!-- local  -->
+  <img src="" alt="">
+  <a href=""></a>
+  <audio src=""></audio>
+  <video src=""></video>
+
+  <!-- Formatting Elements -->
+  <!--
+      b => Bold
+      strong => Bold => Important Text
+      i => Italic
+      em => Emphasized
+      mark => Marked Text Or Highlighted Text
+      u => Underline
+      small => Smaller text
+      del => Deleted Text
+      ins => Inserted Text
+      sub => Subscript
+      sup => Superscript
+      -->
+
+  <p>This Is My <b>Book Store</b>, Welcome</p>
+  <p>This Is My <strong>Book Store</strong>, Welcome</p>
+  <p>This Is My <i>Book Store</i>, Welcome</p>
+  <p>This Is My <em>Book Store</em>, Welcome</p>
+  <p>This Is My Book Store, <mark>Welcome</mark></p>
+  <p>This Is My Book Store, <u>Welcome</u></p>
+  <p>This Is My Book Store, <small>Welcome</small></p>
+  <p>This Is My <del>Book Store</del>, Welcome</p>
+  <p><del>$100</del> $80</p>
+  <p>This Is My <ins>Book Store</ins>, Welcome</p>
+  <p>h<sub>2</sub>o</p>
+  <p>2<sup>2</sup></p>
+
+  <!-- Links – Anchor Tag -->
+  <a href="https://google.com" target="_blank" title="Go To Google">Google</a>
+  <a href="https://google.com" target="_self" title="Go To Google">Google</a>
+  <a href="https://facebook.com" title="Go To Facebook">Facebook</a>
+  <a href="test.html" title="Go To Test Page">Test</a>
+  <a href="#sec" title="Go To section"> Paragraph</a>
+  <a href="mailto:o@nn.sa">Contact Me</a>
+
+  <!-- images -->
+  <!--
+      src => Source
+      alt => Alternate Text
+     -->
+  <img src="https://www.google.com.eg/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="" width="200px"
+    height="200px">
+  <img src="google.png" alt="">
+  <img src="images/google.png" alt="">
+  <img src="images/google.pn" alt="google image">
+
+
+  <!-- Lists – Ul, Ol, DL -->
+
+  <!--
+            ul => Unorderd List
+            li => List Item
+            ol => Ordered List
+          -->
+
+  <ul>
+    <li>HTML</li>
+    <li>CSS</li>
+    <li>
+      JS
+      <ul>
+        <li>Angular</li>
+        <li>Reactjs</li>
+        <li>Vuejs</li>
+      </ul>
+    </li>
+  </ul>
+  <!-- Separator -->
+  <!--
+      reversed => Reverse The Ordering
+      start => Start From Position
+      type => Type Of Ordering
+    -->
+  <ol reversed>
+    <li>Name</li>
+    <li>Address</li>
+    <li>Id</li>
+  </ol>
+  <ol start="100">
+    <li>Name</li>
+    <li>Address</li>
+    <li>Id</li>
+  </ol>
+  <ol type="1">
+    <li>Name</li>
+    <li>Address</li>
+    <li>Id</li>
+  </ol>
+  <ol type="a">
+    <li>Name</li>
+    <li>Address</li>
+    <li>Id</li>
+  </ol>
+  <ol type="I">
+    <li>Name</li>
+    <li>Address</li>
+    <li>Id</li>
+  </ol>
+  <ol>
+    <li value="50">Name</li>
+    <li>Address</li>
+    <li>Id</li>
+  </ol>
+  <!-- Separator -->
+
+  <!--
+      dl => Description List
+      dt => Term
+      dd => Description Term
+    -->
+  <dl>
+    <dt>HTML</dt>
+    <dd>Language Of The Web</dd>
+    <dd>The First step</dd>
+    <dt>CSS</dt>
+    <dd>Language Of The Visuals</dd>
+  </dl>
+
+
+
+  <!-- table  -->
+
+  <!--
+      thead
+      tbody
+      tfoot
+      tr => Table Row
+      td => Table Data Cell
+      th => Table Header Cell
+    -->
+
+  <table border="1">
+    <caption>
+      Students Marks
+    </caption>
+    <tr>
+      <th>First</th>
+      <th>Last</th>
+      <th>Marks</th>
+    </tr>
+    <tr>
+      <td>Nour</td>
+      <td>Mohamed</td>
+      <td>40</td>
+    </tr>
+    <tr>
+      <td>Nour</td>
+      <td>Mohamed</td>
+      <td>40</td>
+    </tr>
+    <tr>
+      <td>Nour</td>
+      <td>Mohamed</td>
+      <td>40</td>
+    </tr>
+    <tr>
+      <td>Nour</td>
+      <td>Mohamed</td>
+      <td>40</td>
+    </tr>
+    <tr>
+      <td colspan="2">Total</td>
+      <td>160</td>
+    </tr>
+  </table>
+
+  <!-- span br  hr  -->
+  <p>This Is <span>My</span> <b>Book Store</b>, Welcome</p>
+  <p>This Is Second Paragraph, <br />Test <br />Test Again</p>
+  <hr />
+  <p>Second Paragraph</p>
+
+
+  <!-- div  -->
+  <div class="science">
+    <div class="book">
+      <h3>Book Title</h3>
+      <p>Book Description</p>
+      <span>$100</span>
+    </div>
+    <div class="book">
+      <h3>Book Title</h3>
+      <p>Book Description</p>
+      <span>$100</span>
+    </div>
+    <div class="book">
+      <h3>Book Title</h3>
+      <p>Book Description</p>
+      <span>$100</span>
+    </div>
+  </div>
+
+  <hr />
+
+  <div class="police">
+    <div class="book">
+      <h3>Book Title</h3>
+      <p>Book Description</p>
+      <span>$100</span>
+    </div>
+    <div class="book">
+      <h3>Book Title</h3>
+      <p>Book Description</p>
+      <span>$100</span>
+    </div>
+    <div class="book">
+      <h3>Book Title</h3>
+      <p>Book Description</p>
+      <span>$100</span>
+    </div>
+  </div>
+
+  <hr />
+
+  <div class="fantasy">
+    <div class="book">
+      <h3>Book Title</h3>
+      <p>Book Description</p>
+      <span>$100</span>
+    </div>
+    <div class="book">
+      <h3>Book Title</h3>
+      <p>Book Description</p>
+      <span>$100</span>
+    </div>
+    <div class="book">
+      <h3>Book Title</h3>
+      <p>Book Description</p>
+      <span>$100</span>
+    </div>
+  </div>
+
+  <!-- semantic elements -->
+
+  <header>Head Of Website</header>
+  <nav>Link - Link - Link</nav>
+  <section>
+    <section></section>
+    <aside></aside>
+  </section>
+  <footer>Footer</footer>
+
+  <!-- audio  -->
+
+  <audio controls autoplay loop muted>
+    <source src="https://server8.mp3quran.net/download_mp3file.php?file=afs/001.mp3" type="audio/mpeg">
+    Your Browser Does Not Support Audio Tags
+  </audio>
+
+  <!-- video  -->
+
+  <video controls  autoplay loop muted poster="images/google.png">
+    <source src="images/awesome-video.mp4" type="video/mp4">
+    Your Browser Does Not Support Video Tag
+  </video>
   
 </body>
+
 </html>
