@@ -162,7 +162,7 @@
   </dl>
 
 
-
+  <!-- ============================================ -->
   <!-- table  -->
 
   <!--
@@ -209,6 +209,8 @@
     </tr>
   </table>
 
+  <!-- =============================================================== -->
+
   <!-- span br  hr  -->
   <p>This Is <span>My</span> <b>Book Store</b>, Welcome</p>
   <p>This Is Second Paragraph, <br />Test <br />Test Again</p>
@@ -216,6 +218,7 @@
   <p>Second Paragraph</p>
 
 
+  <!-- =============================================================== -->
   <!-- div  -->
   <div class="science">
     <div class="book">
@@ -275,6 +278,9 @@
     </div>
   </div>
 
+
+  <!-- ======================================================================== -->
+
   <!-- semantic elements -->
 
   <header>Head Of Website</header>
@@ -285,6 +291,9 @@
   </section>
   <footer>Footer</footer>
 
+
+  <!-- ================================================ -->
+
   <!-- audio  -->
 
   <audio controls autoplay loop muted>
@@ -292,13 +301,267 @@
     Your Browser Does Not Support Audio Tags
   </audio>
 
+  <!-- ================================================ -->
   <!-- video  -->
 
-  <video controls  autoplay loop muted poster="images/google.png">
+  <video controls autoplay loop muted poster="images/google.png">
     <source src="images/awesome-video.mp4" type="video/mp4">
     Your Browser Does Not Support Video Tag
   </video>
-  
+
+  <!-- ================================================ -->
+
+  <!-- Form  -->
+
+  label
+  input
+  Type + (hidden type)
+  required
+  placeholder
+  value
+  name
+  method
+  (`action`) The action attribute specifies where to send the form-data when a form is submitted.
+  submit
+  reset
+  readonly
+  disabled
+  autofocus
+  radio
+  checkbox
+  select
+  textara
+  file
+  search
+  url
+  time
+  data list
+
+  <form action="" method="GET">
+    <div>
+      <label>Username</label>
+      <input type="text" required placeholder="Username">
+    </div>
+    <hr>
+    <div>
+      <label>name</label>
+      <input type="text" required placeholder="name" readonly value="mohammed">
+    </div>
+    <hr>
+    <div>
+      <label>sub</label>
+      <input type="text" required placeholder="sub" autofocus>
+    </div>
+    <div>
+      <hr>
+      <label>disabled</label>
+      <input type="text" placeholder="sub" disabled>
+    </div>
+    <hr>
+    <div>
+      <label>Password</label>
+      <input type="password">
+    </div>
+    <div>
+      <label>phone</label>
+      <input type="tel">
+    </div>
+    <hr>
+    <div>
+      <label>number</label>
+      <input type="number" min="10" max="100" step="10">
+    </div>
+    <hr>
+    <div>
+      <label>button</label>
+      <input type="button" value="button">
+    </div>
+    <hr>
+    <div>
+      <label>color</label>
+      <input type="color">
+    </div>
+    <hr>
+    <div>
+      <label>date</label>
+      <input type="date">
+    </div>
+    <hr>
+    <div>
+      <label>email</label>
+      <input type="email">
+    </div>
+    <hr>
+    <div>
+      <label>file</label>
+      <input type="file">
+    </div>
+    <hr>
+    <div>
+      <label>Month</label>
+      <input type="month" />
+    </div>
+    <hr>
+
+    <div>
+      <label>range</label>
+      <input type="range" min="0" max="100" step="10" value="60">
+    </div>
+    <hr>
+    <div>
+      <label>search</label>
+      <input type="search">
+    </div>
+    <hr>
+    <div>
+      <label>url</label>
+      <input type="url">
+    </div>
+    <hr>
+    <div>
+      <input id="win" type="radio" name="os" value="Windows" checked />
+      <label for="win">Windows</label>
+    </div>
+    <hr>
+    <div>
+      <input id="lin" type="radio" name="os" value="Linux" />
+      <label for="lin">Linux</label>
+    </div>
+    <hr>
+    <div>
+      <input id="mac" type="radio" name="os" value="Mac" />
+      <label for="mac">Mac</label>
+    </div>
+    <hr>
+    <div>
+      <input id="win1" type="checkbox" name="os" value="Windows" checked />
+      <label for="win1">Windows</label>
+    </div>
+    <hr>
+    <div>
+      <input id="lin1" type="checkbox" name="os" value="Linux" />
+      <label for="lin1">Linux</label>
+    </div>
+    <hr>
+    <div>
+      <input id="mac1" type="checkbox" name="os" value="Mac" />
+      <label for="mac1">Mac</label>
+    </div>
+    <hr>
+    <select name="book" id="book">
+      <optgroup label="first Books">
+        <option value="1">Book 1</option>
+        <option value="2">Book 2</option>
+        <option value="3">Book 3</option>
+      </optgroup>
+      <optgroup label="second Books">
+        <option value="4" selected>Book 4</option>
+        <option value="5">Book 5</option>
+        <option value="6">Book 6</option>
+      </optgroup>
+    </select>
+    <hr>
+    <textarea name="subject" cols="40" rows="20" placeholder="Test Text"></textarea>
+    <hr>
+    <input list="programming" name="prog">
+
+    <datalist id="programming">
+      <option value="Python">
+      <option value="PHP">
+      <option value="C#">
+      <option value="C">
+      <option value="C++">
+      <option value="Scala">
+    </datalist>
+    <input type="reset" value="Reset">
+    <input type="submit">
+  </form>
+
+  <hr>
+  <hr>
+  <hr>
+  <!-- ================================================ -->
+
+
+  <!-- Q  (inline), BlockQuote (block), Wbr (word break), Bdi, Button -->
+
+  <q>This Is Wise Word</q>
+  <blockquote>This Is Wise Word</blockquote>
+  <button>Click</button>
+  <div>
+    https://www.youtube.com/<wbr>playlist?list=PLM_i0obccy3swdHfFh1FrLEVVFMp8<wbr>-5Jc&fbclid=IwAR2eP038MSFNJSmNCssdpaBm3KofEJUG9e<wbr>jR95GGGm9AKB0StOIPpLA6fgc
+  </div>
+  <p>مرحبا 2 Welcome</p>
+  <p><bdi>مرحبا</bdi> 2 Welcome</p>
+
+<hr><hr>
+<hr>
+
+
+  <!-- ================================================ -->
+  <!-- iFrame, Pre, Code -->
+
+  <code>
+    var x = 10;
+    var y = 20;
+    console.log(x + y);
+  </code>
+
+  <pre>
+    This Is
+    P
+    New Line
+    New Line
+  </pre>
+  <pre>
+    <code>
+      var x = 10;
+      var y = 20;
+      console.log(x + y);
+    </code>
+  </pre>
+
+  <iframe src="https://mlotfy669.github.io/My_CV/" width="1000" height="700"></iframe>
+
+
+  <!-- ================================================ -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 </body>
 
 </html>
