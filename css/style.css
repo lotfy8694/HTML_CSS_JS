@@ -1,0 +1,177 @@
+/* 
+ul {
+  list-style-type: lower-armenian;
+}
+li {
+  background-color: #EEE;
+  margin-bottom: 20px;
+} */
+
+
+
+/* table {
+  width: 100%;
+  border: 1px solid #CCC;
+  border-spacing: 0;
+}
+table td {
+  padding: 15px;
+  background-color: #EEE;
+  border: 1px solid #CCC;
+}
+table thead td {
+  background-color: #f44336;
+  color: #FFF;
+  font-weight: bold;
+  text-align: center;
+  border-color: #F35246;
+} */
+
+
+/* a:hover {
+  color: red;
+}
+
+.ch:checked {
+  display: none;
+}
+.in:focus {
+  border-color: red;
+  outline: none
+} */
+
+
+
+/* Pseudo Elements – First Letter, First Line, Selection  */
+
+/* .two::first-letter {
+  display: inline-block;
+  background-color: red;
+  color: white;
+  font-size: 60px;
+  font-weight: bold;
+}
+.three::first-line {
+  font-weight: bold;
+  color: green;
+}
+::selection {
+  background-color: black;
+  color: yellow;
+}
+ */
+
+
+/* Before, After, Content */
+
+/* content: attr(data-text); */
+
+
+
+/* 
+.parent {
+  margin-bottom: 20px;
+  overflow: hidden;
+  counter-increment: members-counter;
+}
+
+.one::after {
+  content: counter(members-counter);
+  position: absolute;
+  background-color: red;
+  color: white;
+  width: 20px;
+  height: 20px;
+  text-align: center;
+  font-weight: bold;
+  right: -10px;
+  top: 50%;
+  margin-top: -10px;
+} */
+
+
+
+/* Prefixes */
+
+/* -webkit- => Chrome, Safari, New Opera Version
+-moz- => Firefox
+-ms- => Ie, Edge
+-o- => Old Version of Opera
+
+
+.class {
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -o-border-radius: 10px;
+  -ms-border-radius: 10px;
+  border-radius: 10px;
+} */
+
+
+
+/* border-radius  */
+/* Transition */
+
+/* !Important  */
+
+/* Box Model And Box Sizing */
+/* * {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+} */
+
+
+/*
+  CSS Variables
+  - Global Variable
+  - Local Variable
+  var(Variable Name, Fall Back Value)
+*/
+
+/* :root {
+  --mainColor: blue;
+  --mainPadding: 10px;
+}
+.main {
+  background-color: var(--mainColor, black);
+  color: white;
+  padding: calc(20px + var(--mainPadding));
+}
+h2 {
+  color: var(--mainColor);
+  background-color: #eee;
+  padding: var(--mainPadding);
+}
+p {
+  color: var(--mainColor);
+  border: 2px solid var(--mainColor);
+  padding: var(--mainPadding);
+}
+a:hover {
+  color: var(--mainColor);
+}
+.local {
+  --mainColor: black;
+  background-color: var(--mainColor);
+  color: white;
+} */
+/* ====================================== */
+
+/* flex   Direction, Wrap,Justify Content,Align Items,order,flex*/
+
+/* flex-flow: [Flex-Direction] + [Flex-Wrap] */
+
+
+
+/* Flex Froggy Game */
+
+
+
+
+
+
+
+
+
+
