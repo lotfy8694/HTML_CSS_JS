@@ -170,8 +170,148 @@ a:hover {
 
 
 
+/* .parent {
+  background-color: #eee;
+  width: 100%;
+  padding: 20px 0;
+}
+.parent .one {
+  width: calc(100% - 40px);
+  background-color: #ddd;
+  height: 50px;
+  text-align: center;
+  line-height: 50px;
+  margin: 0 auto 30px;
+}
+
+.parent .two {
+  width: calc(100% - 40px);
+  margin: 0 auto 30px;
+}
+.parent .two .two_1 {
+  background-color: #ddd;
+  width: 33%;
+  display: inline-block;
+  height: 50px;
+  text-align: center;
+  line-height: 50px;
+}
+
+.parent .three {
+  width: calc(100% - 40px);
+  margin:0 auto 30px;
+}
+
+.parent .three .three_1 {
+  background-color: #ddd;
+  width: 49%;
+  display: inline-block;
+  height: 50px;
+  text-align: center;
+  line-height: 50px;
+}
+
+.parent .four {
+  width: calc(100% - 40px);
+  margin:  auto ;
+}
+
+.parent .four_1 {
+  width: 49%;
+  display: inline-block;
+}
+
+.parent .four_1 .four_2 {
+  background-color: #ddd;
+  width: 49.6%;
+  display: inline-block;
+  height: 50px;
+  text-align: center;
+  line-height: 50px;
+} */
 
 
-
-
-
+/* .parent {
+  width: 500px;
+  height: 500px;
+  background-color: #eee;
+  position: relative;
+}
+.parent .one ,.parent .two , .parent .three {
+  position: absolute;
+  width: 250px;
+  height: 250px;
+}
+.parent .one {
+  background-color: rgb(0, 255, 225);
+  top: 50px;
+  left: 50px;
+}
+.parent .two {
+  background-color: rgb(2, 96, 85);
+  top: 100px;
+  left: 100px;
+}
+.parent .three {
+  background-color: rgb(255, 68, 0);
+  top: 150px;
+  left: 150px;
+} */
+/* 
+.parent {
+  width: 600px;
+  height: 200px;
+  background-color: #eee  ;
+  position: relative;
+  text-align: center;
+  margin: 100px auto;
+  padding: 50px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: red rgb(0, 242, 255);
+}
+.parent p {
+  color: #555;
+  font-size: 25px;
+}
+.parent .one , .parent .two , .parent .three , .parent .four  {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+}
+.parent .one {
+  top: -30px;
+  left: -30px;
+  background-color: rgb(0, 242, 255);
+  text-align: center;
+  line-height: 50px;
+  font-size: 20px;
+  border-right: 5px solid red;
+}
+.parent .two {
+  bottom: -30px;
+  left: -30px;
+  background-color: rgb(0, 242, 255);
+  text-align: center;
+  line-height: 50px;
+  font-size: 20px;
+  border-right: 5px solid red;
+}
+.parent .three {
+  top: -30px;
+  right: -30px;
+  background-color: rgb(0, 242, 255);
+  text-align: center;
+  line-height: 50px;
+  font-size: 20px;
+  border-left: 5px solid red;
+}
+.parent .four {
+  bottom: -30px;
+  right: -30px;
+  background-color: rgb(0, 242, 255);
+  text-align: center;
+  line-height: 50px;
+  font-size: 20px;
+  border-left: 5px solid red;
+} */
