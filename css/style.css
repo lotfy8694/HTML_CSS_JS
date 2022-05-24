@@ -112,6 +112,26 @@ table thead td {
 /* border-radius  */
 /* Transition */
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* !Important  */
 
 /* Box Model And Box Sizing */
@@ -168,150 +188,375 @@ a:hover {
 
 
 
+/* filter  */
 
 
-/* .parent {
-  background-color: #eee;
-  width: 100%;
-  padding: 20px 0;
+/* img {
+  transition: 0.3s;
+  filter: grayscale(100%);
 }
-.parent .one {
-  width: calc(100% - 40px);
-  background-color: #ddd;
-  height: 50px;
-  text-align: center;
-  line-height: 50px;
-  margin: 0 auto 30px;
-}
-
-.parent .two {
-  width: calc(100% - 40px);
-  margin: 0 auto 30px;
-}
-.parent .two .two_1 {
-  background-color: #ddd;
-  width: 33%;
-  display: inline-block;
-  height: 50px;
-  text-align: center;
-  line-height: 50px;
-}
-
-.parent .three {
-  width: calc(100% - 40px);
-  margin:0 auto 30px;
-}
-
-.parent .three .three_1 {
-  background-color: #ddd;
-  width: 49%;
-  display: inline-block;
-  height: 50px;
-  text-align: center;
-  line-height: 50px;
-}
-
-.parent .four {
-  width: calc(100% - 40px);
-  margin:  auto ;
-}
-
-.parent .four_1 {
-  width: 49%;
-  display: inline-block;
-}
-
-.parent .four_1 .four_2 {
-  background-color: #ddd;
-  width: 49.6%;
-  display: inline-block;
-  height: 50px;
-  text-align: center;
-  line-height: 50px;
+img:hover {
+  filter: grayscale(0);
 } */
 
 
-/* .parent {
-  width: 500px;
-  height: 500px;
-  background-color: #eee;
-  position: relative;
-}
-.parent .one ,.parent .two , .parent .three {
-  position: absolute;
-  width: 250px;
-  height: 250px;
-}
-.parent .one {
-  background-color: rgb(0, 255, 225);
-  top: 50px;
-  left: 50px;
-}
-.parent .two {
-  background-color: rgb(2, 96, 85);
-  top: 100px;
-  left: 100px;
-}
-.parent .three {
-  background-color: rgb(255, 68, 0);
-  top: 150px;
-  left: 150px;
-} */
-/* 
-.parent {
-  width: 600px;
+
+
+/*
+  Gradients
+  linear-gradient(Direction || Angle, Color Stop 1, Color Stop 2, ....)
+*/
+
+/* div {
+  width: 400px;
   height: 200px;
-  background-color: #eee  ;
+  background-color: #eee;
+  margin: 20px auto;
   position: relative;
-  text-align: center;
-  margin: 100px auto;
-  padding: 50px;
-  border-width: 5px;
-  border-style: solid;
-  border-color: red rgb(0, 242, 255);
+  padding: 10px;
 }
-.parent p {
-  color: #555;
-  font-size: 25px;
-}
-.parent .one , .parent .two , .parent .three , .parent .four  {
-  width: 50px;
-  height: 50px;
+div:before {
+  content: "";
   position: absolute;
-}
-.parent .one {
-  top: -30px;
-  left: -30px;
-  background-color: rgb(0, 242, 255);
-  text-align: center;
-  line-height: 50px;
-  font-size: 20px;
-  border-right: 5px solid red;
-}
-.parent .two {
-  bottom: -30px;
-  left: -30px;
-  background-color: rgb(0, 242, 255);
-  text-align: center;
-  line-height: 50px;
-  font-size: 20px;
-  border-right: 5px solid red;
-}
-.parent .three {
-  top: -30px;
-  right: -30px;
-  background-color: rgb(0, 242, 255);
-  text-align: center;
-  line-height: 50px;
-  font-size: 20px;
-  border-left: 5px solid red;
-}
-.parent .four {
-  bottom: -30px;
-  right: -30px;
-  background-color: rgb(0, 242, 255);
-  text-align: center;
-  line-height: 50px;
-  font-size: 20px;
-  border-left: 5px solid red;
+  top: -10px;
+  left: 0;
+  width: 100%;
+  background-color: red;
+  height: 10px;
+  background-image: linear-gradient(
+    to right,
+    #2980b9 20%,
+    #27ae60 20%,
+    #27ae60 40%,
+    #d35400 40%,
+    #d35400 60%,
+    #8e44ad 60%,
+    #8e44ad 80%,
+    #c0392b 80%
+  );
 } */
+
+
+/* Grid – Parent – Template Columns and Rows And Gap */
+
+ /* .parent {
+  margin: 20px auto;
+  width: 800px;
+  height: 500px;
+  background-color: #ddd;
+  display: grid;
+  grid-template-columns: repeat(2, auto) repeat(2, 1fr);
+  /* grid-template-columns: repeat(4, 1fr); 
+  grid-template-rows: repeat(3, 1fr); 
+  row-gap: 10px;
+  column-gap: 10px; 
+  gap: 10px 10px; 
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  align-content: space-between;  */
+ /* }  */ 
+/* .parent div {
+  background-color: red;
+  color: white;
+  padding: 20px;
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+}  */
+
+
+/* 2D Transform – Scale /Rotate/Translate/Skew */
+
+/* div {
+  margin: 200px auto;
+  width: 200px;
+  height: 200px;
+  background-color: rgb(255 0 0 / 39%);
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  font-size: 30px;
+  transform: scaleX(2);
+  transform: scaleY(2);
+  transform: scale(2, 2);
+
+  transform: rotate(45deg);
+  transform: rotate(1turn);
+  transform: rotate(0.5turn);
+  transform: rotate(0.25turn);
+
+  transform: translate(-100px, -100px);
+} */
+
+/* Skew */
+
+/* h2 {
+  position: relative;
+  color: white;
+  margin: 20px auto;
+  width: fit-content;
+  padding: 20px;
+}
+h2::before {
+  content: "";
+  background-color: red;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  transform: skewX(20deg);
+}
+div {
+  margin: 200px auto;
+  width: 200px;
+  height: 200px;
+  background-color: rgb(255 0 0 / 39%);
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  font-size: 30px;
+  transform: skewX(10deg);
+  transform: skewX(-10deg);
+  transform: skewY(10deg);
+  transform: skewY(-10deg);
+  transform: skew(10deg, 10deg);
+} */
+
+/* 3D Transform – Rotate */
+
+
+/* div {
+  margin: 200px auto;
+  width: 200px;
+  height: 200px;
+  background-color: rgb(255 0 0 / 39%);
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  font-size: 30px;
+  transform: rotateX(50deg);
+  transform: rotateY(50deg);
+  transform: rotateZ(50deg);
+  transform: rotate3d(1, 1, 1, 65deg);
+} */
+
+/* 3D Transform – Backface Visibility And Flip Product */
+
+
+/* .container {
+  margin: 40px auto;
+  width: 200px;
+  perspective: 600px;
+}
+.box {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  transform-style: preserve-3d;
+  transition: transform 1s;
+  transform-origin: right center;
+}
+.box:hover {
+  transform: translateX(-100%) rotateY(-180deg);
+}
+.box .face {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+  backface-visibility: hidden;
+}
+.box .front {
+  background-color: red;
+}
+.box .back {
+  background-color: green;
+  transform: rotateY(180deg);
+} */
+
+/* Animation – KeyFrames, Name, Duration,Iteration Count, Timing Function */
+
+/*
+  Animation
+  - KeyFrames
+  - Name
+  - Duration
+*/
+ /* div {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  transform: translate(-50%, -50%);
+  animation-name: change-color;
+  animation-duration: 2s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation: change-color 2s linear infinite;
+}
+
+ @keyframes change-color {
+  from {
+    background-color: red;
+  }
+  to {
+    background-color: blue;
+  }
+} 
+
+ @keyframes change-color {
+  0% {
+    background-color: red;
+  }
+  100% {
+    background-color: blue;
+  }
+} 
+
+ @keyframes change-color {
+  0% {
+    background-color: red;
+  }
+  5% {
+    background-color: blue;
+  }
+  80% {
+    background-color: black;
+  }
+  100% {
+    background-color: red;
+  } 
+ }  */
+
+
+ /* Up And Down Loading Animation Training */
+
+ /* body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #333;
+}
+.load {
+  display: flex;
+  justify-content: center;
+  margin: 100px auto;
+}
+.load div {
+  width: 20px;
+  height: 20px;
+  background-color: orchid;
+  border-radius: 50%;
+  margin: 0 5px;
+  animation-name: up-and-down;
+  animation-duration: 0.9s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+.load .two {
+  animation-delay: 0.3s;
+}
+.load .three {
+  animation-delay: 0.6s;
+}
+@keyframes up-and-down {
+  to {
+    opacity: 0.2;
+    transform: translateY(-20px);
+  }
+} */
+
+
+
+
+/* Selectors Reference */
+/*
+  CSS Selectors
+  - *
+  - Element => [p, div, h2]
+  - Element OtherElement => div p
+  - .class-name
+  - #id-name
+  - .parent .child
+  - .class-one.class-two
+  - .class-name div, .class-name p
+  - Element.class-name => p.class-name
+  - .parent > .child => Direct Child
+  - Element + Other Element => [div + p]
+  - Element ~ Other Elements => [p ~ div]
+  - [Attribute]
+  - Element[Attribute]
+  - [Attribute=Value]
+  - Element[Attribute=Value] => input[type="submit"]
+  - [Attribute~=Value] => Contains A Word
+  - [Attribute*=Value] => Contains A Atring
+  - [Attribute^=Value] => Start With A String
+  - :first-child
+  - :last-child
+  - :first-of-type
+  - :last-of-type
+  - :not(Selectors)
+  - :nth-child(n)
+
+*/
+
+
+/* Media Queries And Responsive Design  */
+
+/* Mobile */
+
+@media (max-width: 767px) {
+}
+
+/* Small Screens */
+
+@media (min-width: 768px) and (max-width: 991px) {
+}
+
+/* Medium Screens */
+
+@media (min-width: 992px) {
+}
+
+/* Large Screens */
+
+@media (min-width: 1200px) {
+}
+
+/* Custom */
+
+@media (max-width: 1199px) {
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
